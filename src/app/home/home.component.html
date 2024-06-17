@@ -1,0 +1,16 @@
+
+
+<!-- home.component.html -->
+<div class="container">
+    <h2>Welcome to Your page!!!!</h2>
+    <h3>Add your post</h3>
+    <!-- Replace with your dynamic content (images, comments, tags) -->
+    <div class="post" *ngFor="let post of posts">
+      <img [src]="post.imageUrl" alt="Post Image">
+      <p>{{ post.comments }}</p>
+      <div class="tags">
+        <span class="tag" *ngFor="let tag of post.tags">#{{ tag }}</span>
+      </div>
+    </div>
+  </div>
+  

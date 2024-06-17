@@ -1,0 +1,65 @@
+/* src/app/post/post.component.css */
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .post {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s;
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+  }
+  
+  .media-container {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+  }
+  
+  .media-container img,
+  .media-container video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-content {
+    padding: 15px;
+  }
+  
+  .post-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    background: #5bc0de;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    font-size: 12px;
+  }
+  

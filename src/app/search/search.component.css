@@ -1,0 +1,37 @@
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Make the search bar fixed to the top */
+    top: 70px; /* Adjust to account for the height of the navbar */
+    left:500px;
+    background-color: #f2f2f2; /* Add a background color */
+    padding: 10px 0; /* Add padding to the top and bottom */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for visual separation */
+  }
+  
+  .search-bar {
+    width: 10000%; /* Adjust the width as needed */
+    max-width: 10000px; /* Set a maximum width */
+    padding: 8px; /* Adjust the padding as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+    border: 2px solid #181616;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-button {
+    padding: 10px; /* Adjust the padding as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+    border: 1px solid #dcf713;
+    border-left: none;
+    background-color: #171616;
+    color: rgb(92, 225, 249);
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .search-button:hover {
+    background-color: #f8cd57;
+  }
+  
